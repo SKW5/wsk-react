@@ -8,13 +8,13 @@ const Layout = () => {
     <nav>
         <ul>
             <li>
-                <a href="/">Home</a>
+                <Link to="/">Home</Link>
             </li>
             <li>
-                <a href="/profile">Profile</a>
+                <Link to="/profile">Profile</Link>
             </li>
             <li>
-                <a href="/upload">Upload</a>
+                <Link to="/upload">Upload</Link>
             </li>
             <li>
                 <Link to="/login">Login</Link>
