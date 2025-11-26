@@ -1,4 +1,5 @@
 import {Outlet} from "react-router";
+import {Link} from "react-router-dom";
 
 const Layout = () => {
     return (
@@ -14,6 +15,9 @@ const Layout = () => {
             </li>
             <li>
                 <a href="/upload">Upload</a>
+            </li>
+            <li>
+                <Link to="/login">Login</Link>
             </li>
         </ul>
     </nav>

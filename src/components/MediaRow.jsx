@@ -1,11 +1,8 @@
 import { Link } from "react-router-dom";
 
 const MediaRow = (props) => {
-    const {item, setSelectedItem} = props;
+    const {item} = props;
 
-    const view = () => {
-        setSelectedItem(item);
-    }
 
     return (
      <>

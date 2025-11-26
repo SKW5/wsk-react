@@ -1,31 +1,7 @@
 #root {
-  text-align: center;
+    width: 100%;
+    text-align: center;
 }
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-table {
-    table-layout: fixed;
-    border-collapse: collapse;
-}
-
-table th,
-table td {
-    padding: 0.5rem;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
-
-table img {
-    max-width: 100px;
-    height: auto;
-}
-
 .dialog {
     display: flex;
     flex-direction: column;
@@ -36,12 +12,18 @@ table img {
     max-height: 90vh;
     overflow: auto;
 }
-
+img {
+    width: 100%;
+}
 .dialog img {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
 }
 
 .dialog button {
     margin-top: 1rem;
+}
+form {
+    max-width: 500px;
+    margin: 0 auto;
 }
